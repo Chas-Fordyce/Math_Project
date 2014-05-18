@@ -17,7 +17,9 @@
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
   </objects>
-  <rooms name="rooms"/>
+  <rooms name="rooms">
+    <room>rooms\room1</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
