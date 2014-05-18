@@ -13,13 +13,7 @@
     <background>background\bg_mainRoom</background>
   </backgrounds>
   <paths name="paths"/>
-  <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_wall</object>
-  </objects>
-  <rooms name="rooms">
-    <room>rooms\rm_main</room>
-  </rooms>
+  <objects name="objects"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
