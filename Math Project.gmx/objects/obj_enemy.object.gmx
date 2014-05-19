@@ -99,6 +99,7 @@ score++;
           <argument>
             <kind>1</kind>
             <string>instance_destroy();
+score--;
 </string>
           </argument>
         </arguments>
