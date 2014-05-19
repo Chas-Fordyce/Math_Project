@@ -17,6 +17,9 @@
     <background>background\bg_mainRoom</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_score</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
@@ -25,6 +28,7 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_explosion</object>
     <object>objects\obj_enemyController</object>
+    <object>objects\obj_score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_room</room>
