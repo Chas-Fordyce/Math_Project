@@ -1,0 +1,3 @@
+Barriers(In step event of obj_player):
+x = min(x,room_width);
+x = max(x,0)
