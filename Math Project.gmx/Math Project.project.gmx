@@ -7,7 +7,6 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player_right</sprite>
-    <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_gun</sprite>
     <sprite>sprites\spr_enemy</sprite>
@@ -26,13 +25,13 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_wall</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_gun</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_explosion</object>
     <object>objects\obj_enemyController</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_control</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_room</room>
