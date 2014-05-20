@@ -71,6 +71,10 @@ else
 {
     sprite_index = spr_player_right;
 }
+
+// Walking
+if keyboard_check(ord('D')) sprite_index = spr_walk_right;
+if keyboard_check(ord('A')) sprite_index = spr_walk_left;
 </string>
           </argument>
         </arguments>
