@@ -76,6 +76,11 @@ score++;
           <argument>
             <kind>1</kind>
             <string>if (hp == 0) instance_destroy();
+
+if (place_meeting(x,y,cursor_sprite))
+{
+    cursor_sprite = spr_crosshair;
+}
 </string>
           </argument>
         </arguments>
