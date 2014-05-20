@@ -53,7 +53,7 @@ spr_maincursor = spr_cursor_default;
 
 with (newbullet)
 {
-    move_towards_point(mouse_x,mouse_y,10); // The "10" is the speed of the bullet
+    move_towards_point(mouse_x,mouse_y,10);
     image_angle = direction;
 }
 </string>
