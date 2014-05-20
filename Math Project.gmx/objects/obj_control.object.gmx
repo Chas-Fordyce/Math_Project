@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.hp = 5;
+            <string>globalvar hp_p;
+globalvar ammo;
+global.hp_p = 5;
 global.ammo = 10;
 </string>
           </argument>
@@ -50,7 +52,7 @@ global.ammo = 10;
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_red);
-draw_text (view_xview+8,view_yview+8,"Health: " + string(global.hp));
+draw_text (view_xview+8,view_yview+8,"Health: " + string(global.hp_p));
 draw_text (view_xview+8,view_yview+30,"Ammo: " + string(global.ammo));
 </string>
           </argument>

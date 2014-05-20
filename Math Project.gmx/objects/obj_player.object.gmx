@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>instance_create(x,y,obj_gun);
+hp_p = 6;
 </string>
           </argument>
         </arguments>

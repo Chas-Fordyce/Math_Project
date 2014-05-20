@@ -75,7 +75,11 @@ score++;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (hp == 0) instance_destroy();
+            <string>if (hp == 0) 
+{
+    instance_destroy();
+    global.ammo += 7;
+}
 </string>
           </argument>
         </arguments>
