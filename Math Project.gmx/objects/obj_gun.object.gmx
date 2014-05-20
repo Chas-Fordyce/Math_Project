@@ -55,18 +55,18 @@ with (newbullet)
           <argument>
             <kind>1</kind>
             <string>// Keeps the gun connected to the player
-x = obj_player.x
-y = obj_player.y
+x = obj_player.x+12
+y = obj_player.y+14
 
 // Point towards mouse
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 // Make the bullet
-if mouse_check_button(mb_left)
+if mouse_check_button(mb_right)
 {
     if alarm[0] = -1
     {
-        alarm = 9;
+        alarm = 17;
     }
 }
 </string>
