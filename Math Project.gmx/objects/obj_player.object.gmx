@@ -55,11 +55,11 @@ if keyboard_check(ord('W')) y -= 5;
 if keyboard_check(ord('S')) y+= 5;
 
 //Barriers
-x = min(x,room_width-16);
-x = max(x,16);
+x = min(x,room_width-32);
+x = max(x,32);
 
-y = min(y,room_height-16);
-y = max(y,16);
+y = min(y,room_height-32);
+y = max(y,32);
 </string>
           </argument>
         </arguments>
