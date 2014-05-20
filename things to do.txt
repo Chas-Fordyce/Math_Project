@@ -1,0 +1,1 @@
+bowed and arm same sprite, change origin to base of arm
