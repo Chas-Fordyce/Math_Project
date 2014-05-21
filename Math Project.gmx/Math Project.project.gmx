@@ -17,6 +17,7 @@
     <sprite>sprites\spr_cursor_default</sprite>
     <sprite>sprites\spr_walk_right</sprite>
     <sprite>sprites\spr_enemy_bullet</sprite>
+    <sprite>sprites\spr_cursor_selection</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_mainRoom</background>
