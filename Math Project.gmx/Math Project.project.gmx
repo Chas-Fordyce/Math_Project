@@ -16,7 +16,6 @@
     <sprite>sprites\spr_crosshair</sprite>
     <sprite>sprites\spr_cursor_default</sprite>
     <sprite>sprites\spr_walk_right</sprite>
-    <sprite>sprites\spr_walk_left</sprite>
     <sprite>sprites\spr_enemy_bullet</sprite>
   </sprites>
   <backgrounds name="background">
