@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>instance_create(x,y,obj_gun);
 hp_p = 6;
-friction = 0.3;
+friction = 1;
 </string>
           </argument>
         </arguments>
@@ -51,12 +51,12 @@ friction = 0.3;
           <argument>
             <kind>1</kind>
             <string>// Movement
-if keyboard_check(ord('D')) hspeed += 5;
-if keyboard_check(ord('A')) hspeed -= 5;
-if keyboard_check(ord('W')) vspeed -= 5;
-if keyboard_check(ord('S')) vspeed += 5;
+if keyboard_check(ord('D')) hspeed += 6;
+if keyboard_check(ord('A')) hspeed -= 6;
+if keyboard_check(ord('W')) vspeed -= 6;
+if keyboard_check(ord('S')) vspeed += 6;
 
-if (speed &gt; 5) speed = 5;
+if (speed &gt; 6) speed = 6;
 
 // Barriers
 x = min(x,room_width-32);
