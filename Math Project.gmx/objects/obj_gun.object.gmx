@@ -59,7 +59,7 @@ if newbullet
 }
 if global.ammo &lt;= 0 
 {
-    instance_deactivate_object(obj_bullet);
+   instance_deactivate_object(obj_bullet);
     global.ammo = 0;
 }
 
@@ -101,10 +101,11 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 // Make the bullet
 if mouse_check_button(mb_left)
 {
-//    cursor_sprite = spr_crosshair;
+    cursor_sprite = spr_crosshair;
+    
     if alarm[0] == -1
     {
-        alarm = 25;
+    alarm = 25;
     }
 }
 else
