@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_arrow_shoot</sound>
+    <sound>sound\snd_footsteps</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player_default</sprite>
     <sprite>sprites\spr_bullet</sprite>
@@ -16,7 +19,6 @@
     <sprite>sprites\spr_cursor_default</sprite>
     <sprite>sprites\spr_player_walk</sprite>
     <sprite>sprites\spr_enemy_bullet</sprite>
-    <sprite>sprites\spr_cursor_selection</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_mainRoom</background>
@@ -36,6 +38,7 @@
     <object>objects\obj_score</object>
     <object>objects\obj_control</object>
     <object>objects\obj_enemy_bullet</object>
+    <object>objects\obj_sound_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_room</room>

@@ -115,7 +115,7 @@ if (hp == 0)
 //Makes it shoot
 if (alarm[0] == -1)
 {
-    alarm = 20;
+    alarm = 40;
 }
 </string>
           </argument>

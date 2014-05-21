@@ -28,6 +28,7 @@
             <string>instance_create(x,y,obj_gun);
 hp_p = 6;
 friction = 1;
+walk_sound_playing = false;
 </string>
           </argument>
         </arguments>
@@ -50,13 +51,12 @@ friction = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Movement
-if keyboard_check(ord('D')) hspeed += 6;
-if keyboard_check(ord('A')) hspeed -= 6;
-if keyboard_check(ord('W')) vspeed -= 6;
-if keyboard_check(ord('S')) vspeed += 6;
-
-if (speed &gt; 6) speed = 6;
+            <string>/// Main player object stuff
+// Movement
+if keyboard_check(ord('D')) hspeed = 6;
+if keyboard_check(ord('A')) hspeed = -6;
+if keyboard_check(ord('W')) vspeed = -6;
+if keyboard_check(ord('S')) vspeed = 6;
 
 // Barriers
 x = min(x,room_width-32);
@@ -75,7 +75,7 @@ else
     image_xscale = 1;
 }
 
-
+// Footsteps animation and sounds
 if (speed == 0)
 {
     sprite_index = spr_player_default;
@@ -84,6 +84,46 @@ else
 {
     if (sprite_index != spr_player_walk) image_index = 0;
     sprite_index = spr_player_walk;
+}
+
+/* ()
+{
+    
+}
+*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Sound
+if (speed == 0)
+{
+    audio_stop_sound(snd_footsteps);
+    walk_sound_playing = false;
+}
+else
+{
+    if (walk_sound_playing == false) 
+    {
+       audio_play_sound(snd_footsteps,1,true);
+       walk_sound_playing = true;
+    }
 }
 </string>
           </argument>

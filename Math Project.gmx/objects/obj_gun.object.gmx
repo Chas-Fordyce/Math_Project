@@ -55,7 +55,7 @@ newbullet = instance_create(x,y,obj_bullet);
 //Ammo
 if newbullet
 {
-    global.ammo -= 1;
+    global.ammo--;
 }
 if global.ammo &lt;= 0 
 {
@@ -66,6 +66,7 @@ if global.ammo &lt;= 0
 //Movement
 with (newbullet)
 {
+    audio_play_sound(snd_arrow_shoot,1,false);
     move_towards_point(mouse_x,mouse_y,15);
     image_angle = direction;
 }
