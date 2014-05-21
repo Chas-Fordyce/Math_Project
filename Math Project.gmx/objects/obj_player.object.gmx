@@ -74,7 +74,7 @@ hp_p = 6;
             <kind>1</kind>
             <string>/// Alarm for losing health
 
-global.hp_p--;
+global.hp_p -= 1;
 </string>
           </argument>
         </arguments>
