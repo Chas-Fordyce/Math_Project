@@ -56,6 +56,10 @@ if (global.hit_p != noone)
     global.hp_p -= 1;
     instance_destroy();
 }
+if (global.hp_p &lt;=0)
+{
+    global.hp_p = 0;
+}
 </string>
           </argument>
         </arguments>
