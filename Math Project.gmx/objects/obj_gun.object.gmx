@@ -57,7 +57,7 @@ if newbullet
 {
     global.ammo--;
 }
-if global.ammo &lt;= 0 
+if (global.ammo &lt;= 0) 
 {
    instance_deactivate_object(obj_bullet);
    global.ammo = 0;
