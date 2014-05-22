@@ -9,16 +9,25 @@
     <sound>sound\snd_footsteps</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_player_default</sprite>
-    <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\spr_gun</sprite>
-    <sprite>sprites\spr_enemy</sprite>
-    <sprite>sprites\spr_explosion</sprite>
-    <sprite>sprites\spr_sword</sprite>
-    <sprite>sprites\spr_crosshair</sprite>
-    <sprite>sprites\spr_cursor_default</sprite>
-    <sprite>sprites\spr_player_walk</sprite>
-    <sprite>sprites\spr_enemy_bullet</sprite>
+    <sprites name="Player sprites">
+      <sprite>sprites\spr_player_default</sprite>
+      <sprite>sprites\spr_player_walk</sprite>
+      <sprites name="Weapons">
+        <sprite>sprites\spr_sword</sprite>
+        <sprite>sprites\spr_gun</sprite>
+        <sprite>sprites\spr_bullet</sprite>
+        <sprite>sprites\spr_arm</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Cursors">
+      <sprite>sprites\spr_crosshair</sprite>
+      <sprite>sprites\spr_cursor_default</sprite>
+    </sprites>
+    <sprites name="Enemy sprites">
+      <sprite>sprites\spr_enemy</sprite>
+      <sprite>sprites\spr_explosion</sprite>
+      <sprite>sprites\spr_enemy_bullet</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_mainRoom</background>
@@ -28,15 +37,23 @@
     <font>fonts\fnt_score</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_bullet</object>
-    <object>objects\obj_gun</object>
-    <object>objects\obj_enemy</object>
-    <object>objects\obj_explosion</object>
-    <object>objects\obj_enemyController</object>
     <object>objects\obj_score</object>
     <object>objects\obj_control</object>
-    <object>objects\obj_enemy_bullet</object>
+    <objects name="Player objects">
+      <object>objects\obj_player</object>
+      <objects name="Weapons">
+        <object>objects\obj_gun</object>
+        <object>objects\obj_bullet</object>
+        <object>objects\obj_sword</object>
+        <object>objects\obj_arm</object>
+      </objects>
+    </objects>
+    <objects name="Enemy objects">
+      <object>objects\obj_enemy</object>
+      <object>objects\obj_explosion</object>
+      <object>objects\obj_enemyController</object>
+      <object>objects\obj_enemy_bullet</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_room</room>
