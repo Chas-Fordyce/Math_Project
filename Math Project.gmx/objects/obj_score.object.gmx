@@ -48,9 +48,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_white) 
-draw_set_font(fnt_score) 
-draw_text(x,y,score)
+            <string>draw_set_color(c_white);
+draw_set_font(fnt_score);
+draw_text(x,y,score);
 </string>
           </argument>
         </arguments>
