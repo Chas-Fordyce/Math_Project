@@ -25,10 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar hp_p;
+            <string>// Health
+globalvar hp_p;
+global.hp_p = 6;
+// Ammo
 globalvar ammo;
-global.hp_p = 5;
 global.ammo = 10;
+
+if !persistent
+{
+    persistent = true;
+}
 </string>
           </argument>
         </arguments>
@@ -77,8 +84,8 @@ global.ammo = 10;
 //draw_text (view_xview+8,view_yview+8,"Health: " + string(global.hp_p));
 //draw_text (view_xview+8,view_yview+30,"Ammo: " + string(global.ammo));
 
-draw_text(32,32,"Health: " + string(global.hp_p));
-draw_text(32,64,"Ammo: "   + string(global.ammo));
+draw_text(32, 32, "Health: " + string(global.hp_p));
+draw_text(32, 64, "Ammo: "   + string(global.ammo));
 </string>
           </argument>
         </arguments>

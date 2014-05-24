@@ -28,7 +28,6 @@
             <string>instance_create(x,y,obj_gun);
 instance_create(x,y,obj_sword);
 instance_create(x,y,obj_arm);
-hp_p = 6;
 friction = 1;
 walk_sound_playing = false;
 </string>

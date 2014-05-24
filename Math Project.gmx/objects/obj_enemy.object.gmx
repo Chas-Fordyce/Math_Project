@@ -111,7 +111,6 @@ if (hp == 0)
 {
     instance_destroy();
     global.ammo += 7;
-    global.hp_p++;
 }
 //Makes it shoot
 if (alarm[0] == -1)

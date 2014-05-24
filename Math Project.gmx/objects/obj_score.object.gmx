@@ -26,6 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>score = 0;
+if !persistent
+{
+    persistent = true;
+}
 </string>
           </argument>
         </arguments>
