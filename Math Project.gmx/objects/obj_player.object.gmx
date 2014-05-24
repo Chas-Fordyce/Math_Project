@@ -30,6 +30,7 @@ instance_create(x,y,obj_sword);
 instance_create(x,y,obj_arm);
 friction = 1;
 walk_sound_playing = false;
+//persistent = true;
 </string>
           </argument>
         </arguments>
