@@ -26,9 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>instance_create(x,y,obj_pause_menu_controller);
-//instance_create(x,y+100,obj_pause_resume);
-//instance_create(x,y,obj_pause_menu);
-//instance_create(x,y-100,obj_pause_exit);
+
 </string>
           </argument>
         </arguments>

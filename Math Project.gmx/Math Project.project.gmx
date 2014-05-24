@@ -87,9 +87,6 @@
     <objects name="Pause Menu">
       <object>objects\obj_pause_control</object>
       <object>objects\obj_pause_menu_controller</object>
-      <object>objects\obj_pause_resume</object>
-      <object>objects\obj_pause_exit</object>
-      <object>objects\obj_pause_menu</object>
     </objects>
   </objects>
   <rooms name="rooms">
