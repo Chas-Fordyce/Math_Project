@@ -26,16 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>// Health
-//globalvar hp_p;
-//global.hp_p = 6;
+globalvar hp_p;
+global.hp_p = 6;
 // Ammo
-//globalvar ammo;
-//global.ammo = 10;
+globalvar ammo;
+global.ammo = 10;
 
-//if !persistent
-//{
-//    persistent = true;
-//}
+if !persistent
+{
+    persistent = true;
+}
 </string>
           </argument>
         </arguments>
