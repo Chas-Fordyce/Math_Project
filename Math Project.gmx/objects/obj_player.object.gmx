@@ -87,6 +87,11 @@ else
     sprite_index = spr_player_walk;
 }
 
+// Death
+if (global.hp_p=0)
+{
+    room_goto(rm_death);
+}
 /* ()
 {
     
