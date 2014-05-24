@@ -37,6 +37,12 @@
     <sprites name="Health Sprites">
       <sprite>sprites\spr_heart</sprite>
     </sprites>
+    <sprites name="Pause Menu">
+      <sprite>sprites\spr_pause_resume</sprite>
+      <sprite>sprites\spr_pause_exit</sprite>
+      <sprite>sprites\spr_pause_menu</sprite>
+      <sprite>sprites\spr_pause_backdrop</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_mainRoom</background>
@@ -77,6 +83,13 @@
     <objects name="Health Objects">
       <object>objects\obj_healthspawner</object>
       <object>objects\obj_heart</object>
+    </objects>
+    <objects name="Pause Menu">
+      <object>objects\obj_pause_control</object>
+      <object>objects\obj_pause_menu_controller</object>
+      <object>objects\obj_pause_resume</object>
+      <object>objects\obj_pause_exit</object>
+      <object>objects\obj_pause_menu</object>
     </objects>
   </objects>
   <rooms name="rooms">
