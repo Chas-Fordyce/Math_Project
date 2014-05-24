@@ -45,6 +45,9 @@
     </sprites>
     <sprites name="Death Screen">
       <sprite>sprites\spr_dead</sprite>
+      <sprite>sprites\spr_dead_restart</sprite>
+      <sprite>sprites\spr_dead_menu</sprite>
+      <sprite>sprites\spr_dead_exit</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -93,6 +96,9 @@
     </objects>
     <objects name="Death Screen">
       <object>objects\obj_dead</object>
+      <object>objects\obj_dead_menu</object>
+      <object>objects\obj_dead_restart</object>
+      <object>objects\obj_dead_exit</object>
     </objects>
   </objects>
   <rooms name="rooms">

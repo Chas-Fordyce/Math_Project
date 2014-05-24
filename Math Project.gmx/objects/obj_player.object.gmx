@@ -121,6 +121,12 @@ else
        walk_sound_playing = true;
     }
 }
+
+if (global.hp_p == 0)
+{
+    audio_stop_sound(snd_footsteps);
+    walk_sound_playing = false;
+} 
 </string>
           </argument>
         </arguments>
