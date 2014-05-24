@@ -158,7 +158,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.hp_p+=5;
+            <string>global.hp_p += 3;
 </string>
           </argument>
         </arguments>
