@@ -34,6 +34,7 @@
       <sprite>sprites\spr_start</sprite>
     </sprites>
     <sprite>sprites\spr_path</sprite>
+    <sprite>sprites\spr_heart</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_mainRoom</background>
@@ -71,6 +72,10 @@
     </objects>
     <object>objects\obj_path</object>
     <object>objects\obj_path2</object>
+    <objects name="Health Objects">
+      <object>objects\obj_healthspawner</object>
+      <object>objects\obj_heart</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
