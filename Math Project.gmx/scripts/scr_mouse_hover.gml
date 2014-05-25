@@ -5,5 +5,5 @@ if (position_meeting(mouse_x,mouse_y, self))
 }
 else
 {
-    image_index =0;
+    image_index = 0;
 }
