@@ -32,6 +32,13 @@ if (hit != noone)
     hit.hp -=1;
     instance_destroy();
 }
+hit = instance_place(x,y,obj_enemy2);
+
+if (hit != noone)
+{
+    hit.hp -=1;
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
