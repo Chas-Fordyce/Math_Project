@@ -130,7 +130,8 @@ if (space_start == true)
     {
         image_index = 5;
         //something else?
-        space_start = false;       
+        space_start = false;
+    }
 }
 </string>
           </argument>

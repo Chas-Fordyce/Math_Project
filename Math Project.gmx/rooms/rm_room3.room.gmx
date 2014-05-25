@@ -53,6 +53,7 @@
     <instance objName="obj_enemyController2" x="704" y="352" name="inst_6016F6D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="288" y="96" name="inst_B43AC465" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rmswitch_x" x="512" y="-6" name="inst_4D9E6933" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pause_control" x="537" y="145" name="inst_34C6934C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
