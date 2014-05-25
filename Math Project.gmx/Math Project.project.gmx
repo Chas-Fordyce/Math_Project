@@ -64,8 +64,11 @@
     <background>background\bg_mainRoom</background>
     <background>background\bg_menu</background>
     <background>background\bg_tutorial</background>
+    <background>background\bg_fountain</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_enemy2</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_mouse_hover.gml</script>
   </scripts>
@@ -87,17 +90,23 @@
     </objects>
     <objects name="Enemy objects">
       <object>objects\obj_enemy</object>
+      <object>objects\obj_enemy2</object>
       <object>objects\obj_explosion</object>
       <object>objects\obj_enemyController</object>
+      <object>objects\obj_enemyController2</object>
       <object>objects\obj_enemy_bullet</object>
+      <object>objects\obj_enemy_bullet2</object>
     </objects>
     <objects name="Main_Menu">
       <object>objects\obj_exit</object>
       <object>objects\obj_heading</object>
       <object>objects\obj_start</object>
     </objects>
-    <object>objects\obj_path</object>
-    <object>objects\obj_path2</object>
+    <objects name="Path Objects">
+      <object>objects\obj_path</object>
+      <object>objects\obj_path2</object>
+      <object>objects\obj_path3</object>
+    </objects>
     <objects name="Health/Armor Objects">
       <object>objects\obj_healthspawner</object>
       <object>objects\obj_heart</object>
@@ -127,6 +136,7 @@
     <room>rooms\rm_room</room>
     <room>rooms\rm_room2</room>
     <room>rooms\rm_death</room>
+    <room>rooms\rm_room3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
