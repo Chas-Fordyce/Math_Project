@@ -58,9 +58,9 @@
     <sprites name="NPC sprites">
       <sprite>sprites\spr_npc</sprite>
     </sprites>
-    <sprites name="Paths">
-      <sprite>sprites\spr_path</sprite>
-      <sprite>sprites\spr_path_grey</sprite>
+    <sprites name="Room Switch">
+      <sprite>sprites\spr_rmswitch_x</sprite>
+      <sprite>sprites\spr_rmswitch_y</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -105,11 +105,6 @@
       <object>objects\obj_heading</object>
       <object>objects\obj_start</object>
     </objects>
-    <objects name="Path Objects">
-      <object>objects\obj_path</object>
-      <object>objects\obj_path3</object>
-      <object>objects\obj_path_grey</object>
-    </objects>
     <objects name="Health/Armor Objects">
       <object>objects\obj_healthspawner</object>
       <object>objects\obj_heart</object>
@@ -132,6 +127,10 @@
       <object>objects\obj_tutorial_combat</object>
     </objects>
     <object>objects\obj_npc</object>
+    <objects name="Room Switch">
+      <object>objects\obj_rmswitch_x</object>
+      <object>objects\obj_rmswitch_y</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
