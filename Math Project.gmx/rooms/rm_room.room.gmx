@@ -57,8 +57,8 @@
     <instance objName="obj_healthspawner" x="896" y="128" name="inst_20A2B244" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pause_control" x="480" y="320" name="inst_62183B9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_armor_spawner" x="896" y="192" name="inst_1D29951B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rmswitch_y" x="1030" y="380" name="inst_F57CC17B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rmswitch_x" x="512" y="766" name="inst_B6C90861" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmswitch_y" x="1041" y="380" name="inst_F57CC17B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmswitch_x" x="512" y="777" name="inst_B6C90861" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
