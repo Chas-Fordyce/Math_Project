@@ -62,17 +62,22 @@ if (two_pressed == true)
     visible = true;
 
     if (mouse_check_button(mb_left))
-    {
-    // swing  the sword
-    }
-    else
-    {
-    }
+{
+    if (sprite_index != spr_sword) image_index = 0;
+    sprite_index = spr_sword;
+}
+else
+{
+    image_index = 0;
+}
 }
 else
 {
     visible = false;
 }
+
+// Points sword towards mouse
+image_angle = point_direction(x,y,mouse_x,mouse_y);
 </string>
           </argument>
         </arguments>
