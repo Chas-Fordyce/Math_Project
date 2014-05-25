@@ -131,6 +131,7 @@
       <object>objects\obj_rmswitch_x</object>
       <object>objects\obj_rmswitch_y</object>
     </objects>
+    <object>objects\obj_level</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
