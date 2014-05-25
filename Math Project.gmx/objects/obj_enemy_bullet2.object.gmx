@@ -51,6 +51,19 @@ hspeed = 10;
             <kind>1</kind>
             <string>global.hit_p = instance_place(x,y,obj_player);
 
+if (global.armor &lt;= 0)
+{
+    if (global.hit_p != noone)
+    {
+        global.hp_p -= 1;
+        instance_destroy();
+    }
+    if (global.hp_p &lt;=0)
+    {
+        global.hp_p = 0;
+    }
+}
+
 if (global.armor == 1)
 {
     if (global.hit_p != noone)

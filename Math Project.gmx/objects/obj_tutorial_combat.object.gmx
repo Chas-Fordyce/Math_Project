@@ -72,7 +72,7 @@ if (already_shot == false)
 }   
 if (already_shot == true)
 {
-    if (mouse_check_button(mb_left))
+    if (mouse_check_button_released(mb_left))
     {
         sword_start = true;
         already_shot = false;
