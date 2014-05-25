@@ -51,14 +51,69 @@ hspeed = 10;
             <kind>1</kind>
             <string>global.hit_p = instance_place(x,y,obj_player);
 
-if (global.hit_p != noone)
+if (global.armor == 1)
 {
-    global.hp_p -= 1;
-    instance_destroy();
+    if (global.hit_p != noone)
+    {
+        global.hp_p -= .9;
+        instance_destroy();
+    }
+    if (global.hp_p &lt;=0)
+    {
+        global.hp_p = 0;
+    }
 }
-if (global.hp_p &lt;=0)
+
+if (global.armor == 2)
 {
-    global.hp_p = 0;
+    if (global.hit_p != noone)
+    {
+        global.hp_p -= .8;
+        instance_destroy();
+    }
+    if (global.hp_p &lt;=0)
+    {
+        global.hp_p = 0;
+    }
+}
+
+if (global.armor == 3)
+{
+    if (global.hit_p != noone)
+    {
+        global.hp_p -= .75;
+        instance_destroy();
+    }
+    if (global.hp_p &lt;=0)
+    {
+        global.hp_p = 0;
+    }
+}
+
+if (global.armor == 4)
+{
+    if (global.hit_p != noone)
+    {
+        global.hp_p -= .675;
+        instance_destroy();
+    }
+    if (global.hp_p &lt;=0)
+    {
+        global.hp_p = 0;
+    }
+}
+
+if (global.armor == 5)
+{
+    if (global.hit_p != noone)
+    {
+        global.hp_p -= .6;
+        instance_destroy();
+    }
+    if (global.hp_p &lt;=0)
+    {
+        global.hp_p = 0;
+    }
 }
 </string>
           </argument>

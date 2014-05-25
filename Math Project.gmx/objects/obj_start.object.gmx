@@ -104,7 +104,6 @@ room_goto(rm_room);
 globalvar hp_p;
 global.hp_p = 6;
 
-
 // Ammo
 globalvar ammo;
 global.ammo = 10;
