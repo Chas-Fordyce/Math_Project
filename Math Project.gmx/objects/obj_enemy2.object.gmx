@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed = 1;
+            <string>vspeed = 0;
 hp = 5;
 global.enemyCount++;
 </string>
@@ -76,7 +76,7 @@ score++;
           <argument>
             <kind>1</kind>
             <string>//Creation
-newbullet = instance_create(x,y,obj_enemy_bullet);
+newbullet = instance_create(x,y,obj_enemy_bullet2);
 
 //Movement
 with (newbullet)
