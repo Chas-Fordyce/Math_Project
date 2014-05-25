@@ -33,6 +33,10 @@ image_index = 0;
 
 already_shot = false;
 sword_tut    = false;
+sword_start  = false;
+sword_end    = false;
+npc_start    = false;
+space_start  = false;
 </string>
           </argument>
         </arguments>
@@ -70,7 +74,8 @@ if (already_shot == true)
 {
     if (mouse_check_button(mb_left))
     {
-        image_index = 2;
+        sword_start = true;
+        already_shot = false;
     }
 }
 </string>
@@ -95,9 +100,37 @@ if (already_shot == true)
             <kind>1</kind>
             <string>/// Sword tutorial
 
-if (image_index == 2 &amp;&amp; sword_tut == false)
+if (sword_start == true)
 {
-    //
+    sword_start = false;
+    image_index = 2;
+    sword_tut = true;
+}
+if (sword_tut == true)
+{
+    if (keyboard_check_pressed(ord("2")))
+    {
+        image_index = 3;
+        sword_end = true;
+    }
+}
+if (sword_end == true)
+{    
+    if (mouse_check_button(mb_left))
+    {
+        sword_end = false;
+        image_index = 4;
+        space_start = true;
+    }
+}
+
+if (space_start == true)
+{
+    if (keyboard_check_pressed(vk_space))
+    {
+        image_index = 5;
+        //something else?
+        space_start = false;       
 }
 </string>
           </argument>

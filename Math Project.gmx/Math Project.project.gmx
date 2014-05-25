@@ -54,6 +54,7 @@
       <sprite>sprites\spr_tutorial_check</sprite>
       <sprite>sprites\spr_tutorial_movement</sprite>
       <sprite>sprites\spr_tutorial_combat</sprite>
+      <sprite>sprites\spr_tutorial_npc</sprite>
     </sprites>
     <sprites name="NPC sprites">
       <sprite>sprites\spr_npc</sprite>
@@ -125,6 +126,7 @@
       <object>objects\obj_tutorial_check</object>
       <object>objects\obj_tutorial_movement</object>
       <object>objects\obj_tutorial_combat</object>
+      <object>objects\obj_tutorial_npc</object>
     </objects>
     <object>objects\obj_npc</object>
     <objects name="Room Switch">

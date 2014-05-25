@@ -98,8 +98,9 @@ global.hp_p = 6;
 // Ammo
 globalvar ammo;
 global.ammo = 10;
-
-
+// Armor
+globalvar armor;
+global.armor = 0;
 </string>
           </argument>
         </arguments>
