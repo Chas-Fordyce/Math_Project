@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>instance_create(x,y,obj_pause_menu_controller);
 
+cursor_sprite = spr_cursor_default;
 </string>
           </argument>
         </arguments>
