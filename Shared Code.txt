@@ -1,3 +1,15 @@
 Barriers(In step event of obj_player):
 x = min(x,room_width);
 x = max(x,0)
+
+//tutorial wasd code
+    if (keyboard_check_pressed(ord("W"))) w = true;
+    if (keyboard_check_pressed(ord("A"))) a = true;
+    if (keyboard_check_pressed(ord("S"))) s = true;
+    if (keyboard_check_pressed(ord("D"))) d = true;
+
+    if (w == true && a == true && s == true && d == true)
+    {
+        instance_create(x,y,obj_tutorial_combat);
+        instance_destroy();
+    }
