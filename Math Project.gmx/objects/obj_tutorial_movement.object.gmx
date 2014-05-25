@@ -32,6 +32,7 @@ image_speed = 0;
 image_index = 0;
 
 movetutorial = false;
+wasd = 0;
 </string>
           </argument>
         </arguments>
@@ -61,6 +62,18 @@ movetutorial = false;
         image_index = 1;
         movetutorial = true;
     }
+}
+
+if (keyboard_check_pressed(vk_enter)) wasd++;
+if (keyboard_check_pressed(ord("W"))) wasd++;
+if (keyboard_check_pressed(ord("A"))) wasd++;
+if (keyboard_check_pressed(ord("S"))) wasd++;
+if (keyboard_check_pressed(ord("D"))) wads++;
+
+if (wasd == 5)
+{
+    instance_create(x,y,obj_tutorial_combat);
+    instance_destroy();
 }
 </string>
           </argument>
