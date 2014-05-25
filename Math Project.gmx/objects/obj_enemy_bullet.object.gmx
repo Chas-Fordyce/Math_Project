@@ -55,7 +55,7 @@ if (global.armor &lt;= 0)
 {
     if (global.hit_p != noone)
     {
-        global.hp_p -= 1;
+        global.hp_p -= 10;
         instance_destroy();
     }
     if (global.hp_p &lt;=0)
@@ -68,7 +68,7 @@ if (global.armor == 1)
 {
     if (global.hit_p != noone)
     {
-        global.hp_p -= .9;
+        global.hp_p -= 9;
         instance_destroy();
     }
     if (global.hp_p &lt;=0)
@@ -81,7 +81,7 @@ if (global.armor == 2)
 {
     if (global.hit_p != noone)
     {
-        global.hp_p -= .8;
+        global.hp_p -= 8;
         instance_destroy();
     }
     if (global.hp_p &lt;=0)
@@ -94,7 +94,7 @@ if (global.armor == 3)
 {
     if (global.hit_p != noone)
     {
-        global.hp_p -= .75;
+        global.hp_p -= 7.5;
         instance_destroy();
     }
     if (global.hp_p &lt;=0)
@@ -107,7 +107,7 @@ if (global.armor == 4)
 {
     if (global.hit_p != noone)
     {
-        global.hp_p -= .675;
+        global.hp_p -= 6.75;
         instance_destroy();
     }
     if (global.hp_p &lt;=0)
@@ -120,7 +120,7 @@ if (global.armor == 5)
 {
     if (global.hit_p != noone)
     {
-        global.hp_p -= .6;
+        global.hp_p -= 6;
         instance_destroy();
     }
     if (global.hp_p &lt;=0)

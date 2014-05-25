@@ -321,7 +321,7 @@ if (room == rm_room3)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.hp_p += 3;
+            <string>global.hp_p += 15;
 </string>
           </argument>
         </arguments>
