@@ -53,6 +53,7 @@ global.enemyCount++;
             <string>instance_create(x,y,obj_explosion);
 global.enemyCount -= 1;
 score++;
+global.xp += 2;
 </string>
           </argument>
         </arguments>
