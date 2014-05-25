@@ -111,7 +111,9 @@ else
 
 // Health
 globalvar hp_p;
-global.hp_p = 6;
+global.hp_p = 100;
+globalvar Maxhp_p;
+global.Maxhp_p = 100;
 
 // Ammo
 globalvar ammo;

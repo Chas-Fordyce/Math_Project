@@ -61,7 +61,7 @@ if keyboard_check(ord('W')) vspeed = -6;
 if keyboard_check(ord('S')) vspeed = 6;
 
 // Direction
-if (mouse_x &lt; x)
+/*if (mouse_x &lt; x)
 {
     image_xscale = -1;
 }
@@ -69,9 +69,9 @@ else
 {
     image_xscale = 1;
 }
-
+*/
 // Footsteps animation
-if (speed == 0)
+/*if (speed == 0)
 {
     sprite_index = spr_player_default;
 }
@@ -80,7 +80,7 @@ else
     if (sprite_index != spr_player_walk) image_index = 0;
     sprite_index = spr_player_walk;
 }
-
+*/
 //Levelling/XP
 if (global.xp&gt;=global.maxexp)
 {
@@ -367,8 +367,22 @@ if (room == rm_room3)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_healthbar(x,y-20,x+100,y-10,hp_p,c_black,c_red,c_green,0,true,true)
-draw_sprite(sprite_index,-1,x,y)
+            <string>draw_healthbar(x - 25,y - 50, x + 25, y- 60, global.hp_p/global.Maxhp_p * 100, c_black, c_red, c_green, 0, true, true);
+//draw_text(x + 60, y - 120, string(hp_p/Maxhp_p * 100) + "HP");
+//draw_sprite(sprite_index, image_index, x, y);
+if (mouse_x &lt; x)
+{
+    draw_sprite(sprite_index, image_index = 0, x, y);
+    image_speed = 0;
+    //image_xscale = -1;
+}
+else
+{
+    draw_sprite(sprite_index, image_index = 1, x, y);
+    image_speed = 0;
+    //image_xscale = 1;
+}
+
 </string>
           </argument>
         </arguments>

@@ -81,7 +81,7 @@ else
 
 if (global.armor &gt;= 5) global.armor = 5;
 if (global.ammo &gt;= 30) global.ammo = 30;
-if (global.hp_p &gt;= 20) global.hp_p = 20;
+if (global.hp_p &gt;= 100) global.hp_p = 100;
 </string>
           </argument>
         </arguments>
