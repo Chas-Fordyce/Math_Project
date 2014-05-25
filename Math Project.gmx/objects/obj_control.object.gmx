@@ -57,6 +57,7 @@
 
 draw_text(32, 32, "Health: " + string(global.hp_p));
 draw_text(32, 64, "Ammo: "   + string(global.ammo));
+draw_text(32, 96, "Armor: "  + string(global.armor));
 </string>
           </argument>
         </arguments>
