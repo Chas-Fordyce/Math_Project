@@ -101,6 +101,11 @@ global.ammo = 10;
 // Armor
 globalvar armor;
 global.armor = 0;
+//Levelling
+global.level = 1 
+global.spd = 5
+global.maxexp = (30+(global.level*100)-20)
+global.xp = 0
 </string>
           </argument>
         </arguments>
