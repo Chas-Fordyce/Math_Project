@@ -19,7 +19,7 @@
   <width>96</width>
   <height>32</height>
   <frames>
-    <frame index="0">images\spr_start_0.png</frame>
-    <frame index="1">images\spr_start_1.png</frame>
+    <frame index="0">images\spr_tutorial_restart_0.png</frame>
+    <frame index="1">images\spr_tutorial_restart_1.png</frame>
   </frames>
 </sprite>
