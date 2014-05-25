@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>x = room_width/2;
+cursor_sprite = spr_cursor_default;
 </string>
           </argument>
         </arguments>
