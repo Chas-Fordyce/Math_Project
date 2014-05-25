@@ -83,7 +83,6 @@
         <object>objects\obj_sword</object>
         <object>objects\obj_arm</object>
       </objects>
-      <object>objects\obj_armor</object>
     </objects>
     <objects name="Enemy objects">
       <object>objects\obj_enemy</object>
@@ -98,9 +97,11 @@
     </objects>
     <object>objects\obj_path</object>
     <object>objects\obj_path2</object>
-    <objects name="Health Objects">
+    <objects name="Health/Armor Objects">
       <object>objects\obj_healthspawner</object>
       <object>objects\obj_heart</object>
+      <object>objects\obj_armor</object>
+      <object>objects\obj_armor_spawner</object>
     </objects>
     <objects name="Pause Menu">
       <object>objects\obj_pause_control</object>
