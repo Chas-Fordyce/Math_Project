@@ -32,7 +32,10 @@ image_speed = 0;
 image_index = 0;
 
 movetutorial = false;
-wasd = 0;
+w = false;
+a = false;
+s = false;
+d = false;
 </string>
           </argument>
         </arguments>
@@ -63,38 +66,18 @@ wasd = 0;
         movetutorial = true;
     }
 }
+if (movetutorial == true)
+{
+    if (keyboard_check_pressed(ord("W"))) w = true;
+    if (keyboard_check_pressed(ord("A"))) a = true;
+    if (keyboard_check_pressed(ord("S"))) s = true;
+    if (keyboard_check_pressed(ord("D"))) d = true;
 
-//wasd pushed check
-if (keyboard_check_pressed(vk_enter)) 
-{
-    wasd++;
-    
-}
-if (keyboard_check_pressed(ord("W"))) 
-{
-    wasd++;
-    
-}
-if (keyboard_check_pressed(ord("A"))) 
-{
-    wasd++;
-    
-}
-if (keyboard_check_pressed(ord("S"))) 
-{
-    wasd++;
-    
-}
-if (keyboard_check_pressed(ord("D"))) 
-{
-    wasd++;
-    
-}
-
-if (wasd == 5)
-{
-    instance_create(x,y,obj_tutorial_combat);
-    instance_destroy();
+    if (w == true &amp;&amp; a == true &amp;&amp; s == true &amp;&amp; d == true)
+    {
+        instance_create(x,y,obj_tutorial_combat);
+        instance_destroy();
+    }
 }
 </string>
           </argument>
