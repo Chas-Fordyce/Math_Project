@@ -19,6 +19,7 @@
         <sprite>sprites\spr_bullet</sprite>
         <sprite>sprites\spr_arm</sprite>
       </sprites>
+      <sprite>sprites\spr_armor_icon</sprite>
     </sprites>
     <sprites name="Cursors">
       <sprite>sprites\spr_crosshair</sprite>
@@ -82,6 +83,7 @@
         <object>objects\obj_sword</object>
         <object>objects\obj_arm</object>
       </objects>
+      <object>objects\obj_armor</object>
     </objects>
     <objects name="Enemy objects">
       <object>objects\obj_enemy</object>
