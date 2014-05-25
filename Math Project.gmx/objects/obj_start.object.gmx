@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>x = room_width/2;
+tut_finish = false;
 </string>
           </argument>
         </arguments>
@@ -91,13 +92,21 @@
           <argument>
             <kind>1</kind>
             <string>// Room Switch
-if (obj_tutorial_check.tutorial == false)
+
+if (tut_finish == true)
 {
-    room_goto(rm_tutorial);
+    room_goto(rm_room);
 }
 else
 {
-room_goto(rm_room);
+    if (obj_tutorial_check.tutorial == false)
+    {
+        room_goto(rm_tutorial);
+    }
+    else
+    {
+        room_goto(rm_room);
+    }
 }
 
 // Health
@@ -112,7 +121,7 @@ global.ammo = 10;
 globalvar armor;
 global.armor = 0;
 
-// Levelling
+// Leveling
 global.level = 1 
 global.spd = 5
 global.maxexp = (30+(global.level*100)-20)

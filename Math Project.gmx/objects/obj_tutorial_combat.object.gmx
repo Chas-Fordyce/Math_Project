@@ -129,7 +129,8 @@ if (space_start == true)
     if (keyboard_check_pressed(vk_space))
     {
         image_index = 5;
-        //something else?
+        instance_create(x,y,obj_tutorial_finish);
+        instance_destroy();
         space_start = false;
     }
 }
