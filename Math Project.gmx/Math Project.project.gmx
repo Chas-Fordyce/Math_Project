@@ -60,8 +60,8 @@
       <sprite>sprites\spr_npc</sprite>
     </sprites>
     <sprites name="Room Switch">
-      <sprite>sprites\spr_rmswitch_x</sprite>
       <sprite>sprites\spr_rmswitch_y</sprite>
+      <sprite>sprites\spr_rmswitch_x</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -130,8 +130,8 @@
     </objects>
     <object>objects\obj_npc</object>
     <objects name="Room Switch">
-      <object>objects\obj_rmswitch_x</object>
       <object>objects\obj_rmswitch_y</object>
+      <object>objects\obj_rmswitch_x</object>
     </objects>
   </objects>
   <rooms name="rooms">
