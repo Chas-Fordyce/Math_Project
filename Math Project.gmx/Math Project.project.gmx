@@ -80,13 +80,13 @@
     <object>objects\obj_score</object>
     <object>objects\obj_control</object>
     <objects name="Player objects">
-      <object>objects\obj_player</object>
       <objects name="Weapons">
         <object>objects\obj_gun</object>
         <object>objects\obj_bullet</object>
         <object>objects\obj_sword</object>
         <object>objects\obj_arm</object>
       </objects>
+      <object>objects\obj_player</object>
     </objects>
     <objects name="Enemy objects">
       <object>objects\obj_enemy</object>
