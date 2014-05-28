@@ -75,7 +75,7 @@
     <background>background\bg_tutorial</background>
     <background>background\bg_fountain</background>
     <background>background\bg_room2</background>
-    <background>background\background5</background>
+    <background>background\bg_boss</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_enemy2</path>
@@ -157,6 +157,7 @@
     <room>rooms\rm_room2</room>
     <room>rooms\rm_death</room>
     <room>rooms\rm_room3</room>
+    <room>rooms\rm_boss</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

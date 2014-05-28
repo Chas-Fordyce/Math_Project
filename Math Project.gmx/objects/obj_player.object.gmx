@@ -190,8 +190,8 @@ if (room == rm_room)
     x = max(x,32); /*left*/
     //x = min(x,room_width-32); /*right*/
 
-    y = max(y,32); /*down*/
-    //y = min(y,room_height-32); /*up*/
+    y = max(y,32); /*up*/
+    //y = min(y,room_height-32); /*down*/
 }
 
 if (room == rm_tutorial)
@@ -199,8 +199,8 @@ if (room == rm_tutorial)
     x = max(x,32); /*left*/
     x = min(x,room_width-32); /*right*/
 
-    y = max(y,32); /*down*/
-    y = min(y,room_height-32); /*up*/
+    y = max(y,32); /*up*/
+    y = min(y,room_height-32); /*down*/
 }
 
 if (room == rm_room2)
@@ -208,17 +208,17 @@ if (room == rm_room2)
     //x = max(x,32); /*left*/
     x = min(x,room_width-32); /*right*/
 
-    y = max(y,32); /*down*/
-    y = min(y,room_height-32); /*up*/
+    y = max(y,32); /*up*/
+    //y = min(y,room_height-32); /*down*/
 }
 
 if (room == rm_room3)
 {
     x = max(x,32); /*left*/
-    x = min(x,room_width-32); /*right*/
+    //x = min(x,room_width-32); /*right*/
 
-    //y = max(y,32); /*down*/
-    y = min(y,room_height-32); /*up*/
+    //y = max(y,32); /*up*/
+    y = min(y,room_height-32); /*down*/
 }
 
 </string>
@@ -243,15 +243,14 @@ if (room == rm_room3)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (room == rm_room)
-{
-    room_goto(rm_room2);
-}
+            <string>if (room == rm_room) room_goto(rm_room2);
 
-if (room == rm_room2)
-{
-    room_goto(rm_room);
-}
+if (room == rm_room2) room_goto(rm_room);
+
+if (room == rm_room3) room_goto(rm_boss);
+
+if (room == rm_boss) room_goto(rm_room3);
+
 </string>
           </argument>
         </arguments>
@@ -274,15 +273,16 @@ if (room == rm_room2)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (room == rm_room)
-{
-    room_goto(rm_room3);
-}
+            <string>if (room == rm_room) room_goto(rm_room3);
 
-if (room == rm_room3)
-{
-    room_goto(rm_room);
-}
+
+if (room == rm_room3) room_goto(rm_room);
+
+
+if (room == rm_room2) room_goto(rm_boss);
+
+if (room == rm_boss) room_goto(rm_room2);
+
 </string>
           </argument>
         </arguments>
