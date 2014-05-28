@@ -115,7 +115,7 @@ if (one_pressed == true)
         
         if (alarm[0] == -1)
         {
-            alarm = 25;
+            alarm = global.gun;
         }
     }
     else
