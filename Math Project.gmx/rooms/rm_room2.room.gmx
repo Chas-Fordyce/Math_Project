@@ -55,6 +55,7 @@
     <instance objName="obj_pause_control" x="480" y="288" name="inst_4CFCCDD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rmswitch_y" x="-21" y="380" name="inst_3276082E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rmswitch_x" x="513" y="782" name="inst_AA6ECB07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemyController" x="74" y="301" name="inst_1938A616" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

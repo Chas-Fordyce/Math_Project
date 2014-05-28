@@ -51,7 +51,7 @@ global.enemyCount = 0;
             <kind>1</kind>
             <string>if (global.enemyCount == 0)
 {
-    instance_create(32,32,obj_enemy);
+    instance_create(992,32,obj_enemy);
 }
 </string>
           </argument>
