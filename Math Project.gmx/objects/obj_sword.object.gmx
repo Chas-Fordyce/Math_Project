@@ -79,6 +79,36 @@ else
 
 // Points sword towards mouse
 image_angle = point_direction(x,y,mouse_x,mouse_y);
+
+// Damage
+hit = instance_place(x,y,obj_enemy);
+
+if (hit != noone)
+{
+    if (obj_sword.image_index == 14)
+    {
+        if (global.two_pressed == true)
+        {
+            global.hp -= 15;
+            exit;
+        }
+    }
+}
+
+hit2 = instance_place(x,y,obj_enemy2);
+
+if (hit2 != noone)
+{
+    if (obj_sword.image_index == 14)
+    {
+        if (global.two_pressed == true)
+        {
+            global.hp2 -= 15;
+            exit;
+        }
+    }  
+}
+
 </string>
           </argument>
         </arguments>
