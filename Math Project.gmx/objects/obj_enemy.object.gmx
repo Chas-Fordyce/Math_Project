@@ -154,12 +154,12 @@ image_angle = point_direction(x,y,obj_player.x,obj_player.y);
 {
     if (global.two_pressed == false)
     {
-        global.hp -= 5;
+        global.hp -= 0;
         exit;
     }
     else
     {
-        global.hp -= 10;
+        global.hp -= 15;
         exit;
     }
 }

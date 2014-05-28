@@ -92,20 +92,36 @@
             <kind>1</kind>
             <string>// Room Switch
 room_goto(rm_room);
+
 // Health
 globalvar hp_p;
-global.hp_p = 6;
+global.hp_p = 100;
+globalvar Maxhp_p;
+global.Maxhp_p = 100;
+
 // Ammo
 globalvar ammo;
 global.ammo = 10;
+
 // Armor
 globalvar armor;
 global.armor = 0;
-//Levelling
+
+// Leveling
 global.level = 1 
 global.spd = 5
 global.maxexp = (30+(global.level*100)-20)
 global.xp = 0
+
+// Weapon
+globalvar one_pressed;
+global.one_pressed = false;
+
+globalvar two_pressed;
+global.two_pressed = false;
+
+globalvar nothing_pressed;
+global.nothing_pressed = true;
 </string>
           </argument>
         </arguments>
