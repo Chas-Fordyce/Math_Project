@@ -30,7 +30,7 @@ global.hp2 = 100;
 globalvar Maxhp2;
 global.Maxhp2 = 100;
 
-global.enemyCount++;
+global.enemyCount2++;
 
 instance_create(x,y,obj_enemy_healthbar2);
 </string>
@@ -88,7 +88,7 @@ instance_create(x,y,obj_enemy_healthbar2);
           <argument>
             <kind>1</kind>
             <string>instance_create(x,y,obj_explosion);
-global.enemyCount -= 1;
+global.enemyCount2 -= 1;
 score++;
 global.xp += 4;
 </string>
