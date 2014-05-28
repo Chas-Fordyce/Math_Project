@@ -128,6 +128,16 @@ global.level = 1
 global.spd = 5
 global.maxexp = (30+(global.level*100)-20)
 global.xp = 0
+
+// Weapon
+globalvar one_pressed;
+global.one_pressed = false;
+
+globalvar two_pressed;
+global.two_pressed = false;
+
+globalvar nothing_pressed;
+global.nothing_pressed = true;
 </string>
           </argument>
         </arguments>

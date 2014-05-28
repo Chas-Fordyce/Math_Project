@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>window_set_cursor(cr_none);
 spr_maincursor = spr_cursor_default;
-one_pressed = false;
+//global.one_pressed = false;
 cursor_sprite = spr_maincursor;
 </string>
           </argument>
@@ -96,14 +96,14 @@ with (newbullet)
             <kind>1</kind>
             <string>// Keeps the gun connected to the player
 x = obj_player.x
-y = obj_player.y+8
+y = obj_player.y+6
 
 // Point towards mouse
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
-if (keyboard_check_pressed(ord("1"))) one_pressed = true;
-if (keyboard_check_pressed(vk_space)) one_pressed = false;
-if (keyboard_check_pressed(ord("2"))) one_pressed = false;
+if (keyboard_check_pressed(ord("1"))) global.one_pressed = true;
+if (keyboard_check_pressed(vk_space)) global.one_pressed = false;
+if (keyboard_check_pressed(ord("2"))) global.one_pressed = false;
 
 // Make the bullet
 if (one_pressed == true)

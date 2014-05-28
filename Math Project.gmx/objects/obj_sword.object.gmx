@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>two_pressed = false;
+            <string>//global.two_pressed = false;
 </string>
           </argument>
         </arguments>
@@ -52,12 +52,12 @@
 x = obj_player.x
 y = obj_player.y+8
 
-if (keyboard_check_pressed(ord("2"))) two_pressed = true;
-if (keyboard_check_pressed(vk_space)) two_pressed = false;
-if (keyboard_check_pressed(ord("1"))) two_pressed = false;
+if (keyboard_check_pressed(ord("2"))) global.two_pressed = true;
+if (keyboard_check_pressed(vk_space)) global.two_pressed = false;
+if (keyboard_check_pressed(ord("1"))) global.two_pressed = false;
 
 // Swings the sword
-if (two_pressed == true)
+if (global.two_pressed == true)
 {    
     visible = true;
 

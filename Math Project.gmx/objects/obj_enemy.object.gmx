@@ -26,8 +26,15 @@
           <argument>
             <kind>1</kind>
             <string>vspeed = 1;
-hp = 5;
+
+globalvar hp;
+global.hp = 100;
+globalvar Maxhp;
+global.Maxhp = 100;
+
 global.enemyCount++;
+
+instance_create(x,y,obj_enemy_healthbar);
 </string>
           </argument>
         </arguments>
@@ -108,10 +115,10 @@ with (newbullet)
           <argument>
             <kind>1</kind>
             <string>//Health
-if (hp == 0) 
+if (global.hp == 0) 
 {
     instance_destroy();
-    global.ammo += 7;
+    global.ammo += 5;
 }
 //Makes it shoot
 if (alarm[0] == -1)
@@ -145,14 +152,14 @@ image_angle = point_direction(x,y,obj_player.x,obj_player.y);
             <kind>1</kind>
             <string>if (obj_sword.image_index == 14)
 {
-    if (obj_sword.two_pressed == false)
+    if (global.two_pressed == false)
     {
-        hp -= 0.2;
+        global.hp -= 5;
         exit;
     }
     else
     {
-        hp -= 1;
+        global.hp -= 10;
         exit;
     }
 }

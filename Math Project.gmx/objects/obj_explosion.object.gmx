@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 15;
+            <string>alarm[0] = 60;
 fading = 0;
 image_alpha = 1;
 </string>
@@ -50,7 +50,7 @@ image_alpha = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>fading = 1;
+            <string>fading = 20;
 </string>
           </argument>
         </arguments>
@@ -73,7 +73,7 @@ image_alpha = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (fading = 1)
+            <string>if (fading = 20)
 {
     image_alpha -= 0.05;
 }

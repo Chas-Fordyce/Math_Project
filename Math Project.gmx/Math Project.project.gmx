@@ -27,8 +27,10 @@
     </sprites>
     <sprites name="Enemy sprites">
       <sprite>sprites\spr_enemy</sprite>
+      <sprite>sprites\spr_enemy2</sprite>
       <sprite>sprites\spr_explosion</sprite>
       <sprite>sprites\spr_enemy_bullet</sprite>
+      <sprite>sprites\spr_enemy_bullet2</sprite>
     </sprites>
     <sprites name="Main_Menu">
       <sprite>sprites\spr_exit</sprite>
@@ -72,6 +74,7 @@
     <background>background\bg_menu</background>
     <background>background\bg_tutorial</background>
     <background>background\bg_fountain</background>
+    <background>background\bg_room2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_enemy2</path>
@@ -96,13 +99,19 @@
       <object>objects\obj_player</object>
     </objects>
     <objects name="Enemy objects">
-      <object>objects\obj_enemy</object>
-      <object>objects\obj_enemy2</object>
       <object>objects\obj_explosion</object>
-      <object>objects\obj_enemyController</object>
-      <object>objects\obj_enemyController2</object>
-      <object>objects\obj_enemy_bullet</object>
-      <object>objects\obj_enemy_bullet2</object>
+      <objects name="Enemy">
+        <object>objects\obj_enemy</object>
+        <object>objects\obj_enemyController</object>
+        <object>objects\obj_enemy_bullet</object>
+        <object>objects\obj_enemy_healthbar</object>
+      </objects>
+      <objects name="Enemy2">
+        <object>objects\obj_enemy2</object>
+        <object>objects\obj_enemyController2</object>
+        <object>objects\obj_enemy_bullet2</object>
+        <object>objects\obj_enemy_healthbar2</object>
+      </objects>
     </objects>
     <objects name="Main_Menu">
       <object>objects\obj_exit</object>
