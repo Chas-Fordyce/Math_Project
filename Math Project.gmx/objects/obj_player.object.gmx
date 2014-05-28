@@ -83,12 +83,12 @@ else
 */
 
 //Levelling/XP
-if (global.xp&gt;=global.maxexp)
+if (global.xp &gt;= global.maxexp)
 {
 global.xp = 0;
 global.level += 1;
 global.spd += 0.3;
-global.maxexp = (30+(global.level*100)-20);
+global.maxexp = (30+(global.level*2)-20);
 }
 
 // Ammo Cap

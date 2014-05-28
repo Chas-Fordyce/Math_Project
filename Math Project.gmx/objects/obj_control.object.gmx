@@ -56,12 +56,12 @@
 //draw_text (view_xview+8,view_yview+30,"Ammo: " + string(global.ammo));
 
 //draw_text(32, 32, "Health: " + string(global.hp_p));
-draw_text(32, 64, "Ammo: "   + string(global.ammo));
-draw_text(32, 96, "Armor: "  + string(global.armor));
+draw_text(32, 16, "Ammo: "   + string(global.ammo));
+draw_text(32, 48, "Armor: "  + string(global.armor));
 
 // Levels
-draw_text(32, 32,"Level: "+string(global.level));
-draw_rectangle_color(40, 28, 5+(global.xp/global.maxexp*100), 40,178,134,200,134,0)
+draw_text(32, 80,"Level: "+string(global.level));
+draw_rectangle_color(32, 112, 32+(global.xp/global.maxexp*100), 128, c_blue, c_blue, c_teal, c_teal,0)
 </string>
           </argument>
         </arguments>

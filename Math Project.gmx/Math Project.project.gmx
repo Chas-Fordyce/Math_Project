@@ -75,6 +75,7 @@
     <background>background\bg_tutorial</background>
     <background>background\bg_fountain</background>
     <background>background\bg_room2</background>
+    <background>background\background5</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_enemy2</path>

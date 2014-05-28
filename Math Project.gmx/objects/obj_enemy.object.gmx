@@ -60,7 +60,7 @@ instance_create(x,y,obj_enemy_healthbar);
             <string>instance_create(x,y,obj_explosion);
 global.enemyCount -= 1;
 score++;
-global.xp += 2;
+global.xp += 4;
 </string>
           </argument>
         </arguments>

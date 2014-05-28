@@ -126,7 +126,7 @@ global.armor = 0;
 // Leveling
 global.level = 1 
 global.spd = 5
-global.maxexp = (30+(global.level*100)-20)
+global.maxexp = (30+(global.level*2)-20)
 global.xp = 0
 
 // Weapon
