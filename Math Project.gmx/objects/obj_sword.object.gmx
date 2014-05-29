@@ -61,7 +61,7 @@ if (global.two_pressed == true)
 {    
     visible = true;
 
-    if (mouse_check_button_pressed(mb_left))
+    if (mouse_check_button(mb_left))
     {
         if (sprite_index != spr_sword) image_index = 0;
         sprite_index = spr_sword;
