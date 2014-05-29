@@ -203,6 +203,15 @@ if (room == rm_room3)
     y = min(y,room_height-32); /*down*/
 }
 
+if (room == rm_boss)
+{
+    //x = max(x,32); /*left*/
+    x = min(x,room_width-32); /*right*/
+
+    //y = max(y,32); /*up*/
+    y = min(y,room_height-32); /*down*/
+}
+
 </string>
           </argument>
         </arguments>
