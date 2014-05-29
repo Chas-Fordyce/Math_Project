@@ -60,28 +60,6 @@ if keyboard_check(ord('A')) hspeed = -6;
 if keyboard_check(ord('W')) vspeed = -6;
 if keyboard_check(ord('S')) vspeed = 6;
 
-// Direction
-/*if (mouse_x &lt; x)
-{
-    image_xscale = -1;
-}
-else
-{
-    image_xscale = 1;
-}
-*/
-// Footsteps animation
-/*if (speed == 0)
-{
-    sprite_index = spr_player_default;
-}
-else
-{
-    if (sprite_index != spr_player_walk) image_index = 0;
-    sprite_index = spr_player_walk;
-}
-*/
-
 //Levelling/XP
 if (global.xp &gt;= global.maxexp)
 {
@@ -90,7 +68,10 @@ if (global.xp &gt;= global.maxexp)
     global.gun -= 1;
     global.maxexp = (30+(global.level*2)-20);
 }
-
+if (global.level &gt;= 25)
+{
+    global.level = 25;
+}
 // Ammo Cap
 if (global.ammo &gt;= 30)
 {
