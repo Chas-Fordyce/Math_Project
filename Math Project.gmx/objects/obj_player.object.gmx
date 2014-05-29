@@ -71,6 +71,7 @@ if (global.xp &gt;= global.maxexp)
 if (global.level &gt;= 15)
 {
     global.level = 15;
+    global.gun = 11;
 }
 // Ammo Cap
 if (global.ammo &gt;= 30)
