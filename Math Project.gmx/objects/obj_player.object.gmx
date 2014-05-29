@@ -87,7 +87,7 @@ if (global.xp &gt;= global.maxexp)
 {
     global.xp = 0;
     global.level += 1;
-    global.gun -= 2;
+    global.gun -= 1;
     global.maxexp = (30+(global.level*2)-20);
 }
 
