@@ -370,13 +370,13 @@ draw_healthbar(x - 25,y - 50, x + 25, y- 60, global.hp_p/global.Maxhp_p * 100, c
 
 if (mouse_x &lt; x)
 {
-    draw_sprite(sprite_index, image_index = 0, x, y);
+    draw_sprite(sprite_index, image_index = 1, x, y);
     image_speed = 0;
     //image_xscale = -1;
 }
 else
 {
-    draw_sprite(sprite_index, image_index = 1, x, y);
+    draw_sprite(sprite_index, image_index = 0, x, y);
     image_speed = 0;
     //image_xscale = 1;
 }
